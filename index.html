@@ -9,101 +9,159 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <!-- Social icon set : https://www.iconfinder.com/iconsets/black-white-social-media -->
 
-        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">        
-        <link rel="stylesheet" href="css/vendor/font-awesome.min.css">     
-        <link rel="stylesheet" href="css/main.css">     
-        <link rel="stylesheet" href="css/custom.css">     
-
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">        
+        <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+        <!-- build:css -->     
+        <link rel="stylesheet" href="assets/css/main.css">     
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- endbuild -->
+        <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header class="nav-header">        
-            <nav class="navbar-default secondary-nav">
-                <div class="container">
-                    <ul class="nav">
-                        <li><a href="#">ENGLISH</a></li>
-                        <li><a href="#">SPANISH</a></li>
-                    </ul>
-                </div>                
-            </nav>
 
+        <header id="header" class="header">
             <nav class="navbar navbar-default">
-               <div class="container-fluid container">
+                <!-- <a class="navbar-brand" href="#"><i class="logo fa fa-paper-plane fa-2x"></i></a> -->
+                <ul class="social">
+                    <li><a href="#"><img src="assets/img/1456085859_twitter_online_social_media.svg" alt=""></a></li><!--
+                    --><li><a href="#"><img src="assets/img/1456085893_linked_in_online_social_media.svg" alt=""></a></li><!--
+                    --><li><a href="#"><img src="assets/img/1456085852_online_social_media_facebook.svg" alt=""></a></li><!--
+                    --><li><a href="#"><img src="assets/img/1456085906_online_social_media_google_plus.svg" alt=""></a></li>
+                    <li class="lang-li"><a href="#" title="">ENG</a></li>
+                    <li class="lang-li">|</li>
+                    <li class="lang-li"><a href="#" title="">ESP</a></li>
+                </ul>
+               <div class="container-fluid container menu">
                   <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
-                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                         <span aria-hidden="true">Menu</span>
-                     </button>
-                     <a class="navbar-brand" href="#"><i class="logo fa fa-paper-plane fa-2x"></i>Ice Cream</a>
+                    </button>
+                     
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse" id="navbar-collapse">
                      <div class="navbar-right">
                         <ul class="nav navbar-nav">
-                           <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu 1 <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="#">Action</a></li>
-                                 <li><a href="#">Another action</a></li>
-                                 <li><a href="#">Something else here</a></li>
-                                 <li role="separator" class="divider"></li>
-                                 <li><a href="#">Separated link</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                           <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu 2 <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="#">Action</a></li>
-                                 <li><a href="#">Another action</a></li>
-                                 <li><a href="#">Something else here</a></li>
-                                 <li role="separator" class="divider"></li>
-                                 <li><a href="#">Separated link</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                           <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu 3 <span class="caret"></span></a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="#">Action</a></li>
-                                 <li><a href="#">Another action</a></li>
-                                 <li><a href="#">Something else here</a></li>
-                                 <li role="separator" class="divider"></li>
-                                 <li><a href="#">Separated link</a></li>
-                              </ul>
-                           </li>
+                           <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                           <li><a href="news/">News</a></li>
+                           <li><a href="courses/">Courses</a></li>
+                           <li><a href="services/">Services</a></li>
+                           <li><a href="about/">About Us</a></li>
                         </ul>
                      </div>
 
                   </div><!-- /.navbar-collapse -->
                </div><!-- /.container-fluid -->
             </nav>
-         </header>
-        <!-- Add your site or application content here -->
-        <section>
-         <div class="container jumbotron">
+            <div class="tagline">
+                <p><span class="tagline-first-letter">s</span>ustainable <span class="tagline-first-letter">a</span>ttitude</p>
+            </div>            
+        </header><!-- /header -->
+        <div class="blurb">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div id="carousel" class="carousel-container">
+            <div id="carousel-item-1" class="carousel-item carousel-1">
+                <div class="carousel-content">
+                    <span class="quote">"This is a quote about something."</span><br>
+                    <span class="quote-author">- Terry Lardner, 2016</span>
+                </div>                
+            </div>
+            <div id="carousel-item-2" class="carousel-item carousel-2">
+                <div class="carousel-content">
+                    <span class="quote">"This is Another quote about something."</span><br>
+                    <span class="quote-author">- Cris Cebritä, 2246</span>
+                </div>
+            </div>
+        </div>
+        <div id="preview-container" class="previews">
             <div class="row">
-               <div class="col-md-8">.col-md-8</div>
-               <div class="col-md-4 news-item-bg">.col-md-4</div>
-            </div>     
-         </div>
-      </section>     
+                <div class="col-sm-6 col-md-6">
+                    <div class="col-left preview-content">
+                        <div class="preview-summary-container">
+                            <div class="overlay preview-overlay-1"></div>
+                            <div class="preview-summary">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            </div>
+                        </div>
+                        <div class="preview-title">
+                            [News item #1] Lorem Ipsum
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="col-right preview-content">
+                        <div class="preview-summary-container">                                                      
+                            <div class="overlay preview-overlay-2"></div>
+                            <div class="preview-summary">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            </div>
+                        </div>
+                        <div class="preview-title">
+                            [News item #1] Lorem Ipsum
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="col-left preview-content">
+                        <div class="preview-summary-container">
+                            <div class="overlay preview-overlay-3"></div>
+                            <div class="preview-summary">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            </div>
+                        </div>
+                        <div class="preview-title">
+                            [Services] Lorem Ipsum
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="col-right preview-content">
+                        <div class="preview-summary-container">
+                            <div class="overlay preview-overlay-4"></div>
+                            <div class="preview-summary">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                            </div>
+                        </div>
+                        <div class="preview-title">
+                            [Courses] Lorem Ipsum 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview-content-contact border-bl">
+                Contact
+            </div>
+        </div>
+        
+        
+        <div class="contact-container container">
 
-      <script type="text/javascript" src="js/vendor/jquery.min.js"></script>      
-      <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
-      <script type="text/javascript" src="js/vendor/mustache.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-      <script type="text/javascript" src="js/plugins.js"></script>
+        </div> 
+        <footer>
+            
+        </footer>
+
+        <script type="text/javascript" src="assets/js/vendor/jquery.min.js"></script>      
+        <script type="text/javascript" src="assets/js/vendor/bootstrap.min.js"></script>
+        <!-- <script type="text/javascript" src="js/vendor/mustache.min.js"></script> -->
+        <!-- build:js -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!--         
+        <!--
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

@@ -1,0 +1,432 @@
+body {
+	background-color: #FAFAFA;
+	font-family: 'Work Sans', sans-serif;
+}
+
+ul, li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Bootstrap overrides */
+.navbar-default {
+	background-image: none;
+	border-radius: 0;
+	background-repeat: no-repeat;
+	border:none;
+	background-color: transparent;
+	/*border-bottom: 1px solid #FCFCFC;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #333;
+}
+
+.navbar-default .navbar-nav>li:hover {
+	background-color: #FCFCFC;
+}
+
+.navbar-toggle {
+	color: #FCFCFC;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+	background-color: #FCFCFC;
+	color: #333;
+}
+
+.col-md-6,
+.col-md-12 {
+	padding: 0;
+}
+
+.navbar-collapse {
+	border-top: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* Bootstrap overrides end */
+
+.header {
+	/*background-image: url('../img/header_bg_1.jpg');*/
+	/*background-image: url('../img/header_bg.jpg');*/
+	background-image: url('../img/carousel-r-2.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	display: table;
+	/*border-collapse: collapse;*/
+}
+
+.menu {
+	text-align: center;
+}
+
+.logo {
+	color: #FCFCFC;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
+.tagline {
+	display: table-row;
+	height: auto;
+	text-align: center;
+	background: transparent;
+}
+
+.blurb p {
+	font-size: 30px;
+	padding: 45px 200px 10px 200px;
+}
+
+.tagline p {
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	/*letter-spacing: -3px;*/
+	margin: 0;
+}
+
+.carousel-container {
+	/*height: 180px;*/
+	height: 95px;
+	margin-bottom: 30px; /* Remove this if using backgroung image? */
+}
+
+.carousel-item {
+	position: relative;
+	width: 100%;
+	font-family: 'Tangerine', cursive;
+	color: #333;
+	/*height: 180px;*/
+	height: 95px;
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
+	background-color: #FAFAFA;
+
+	/*color: #fff;
+	background-image: url('../img/carousel-l.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+  	background-size: cover;*/
+}
+
+.carousel-content {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.carousel-1 {
+	bottom: 0;
+	z-index: 0;
+}
+
+.carousel-2 {
+	/*bottom: 180px;*/
+	bottom: 95px;
+	z-index: -1;
+}
+
+.transparent {
+	opacity: 0;
+}
+
+.quote {
+	font-size: 36px;
+}
+
+.quote-author {
+	font-size: 25px;
+}
+
+.social {
+	text-align: right;
+	margin: 0 20px 10px 0;
+}
+
+ul.social li {
+	display: inline-block;
+	padding: 5px 9px;
+}
+
+ul.social .lang-li {
+	padding: 0;
+	vertical-align: top;
+	color: #FCFCFC;
+}
+
+ul.social .lang-li:hover {
+	background-color: #FCFCFC;
+}
+
+.lang-li a {
+	color: #FCFCFC;
+}
+
+.lang-li a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.lang-li a:focus {
+	color: #FCFCFC;
+	text-decoration: none;
+}
+
+.social img{
+	width: 40px;
+}
+
+
+/*
+==============================
+Preview sections
+==============================
+*/
+
+.row {
+	margin: 0;
+}
+
+.col-left {
+	float: right;
+}
+
+.col-right {
+	float: left;
+}
+
+.previews {
+	padding-top: 50px;
+	background-color: #fff;	
+}
+
+.preview-content {
+	border: 1px solid #161F7F;
+}
+
+.preview-content,
+.preview-content-contact  {
+	text-align: center;
+	
+}
+
+.preview-summary-container {
+	text-align: left;	
+}
+
+.preview-overlay-1,
+.preview-overlay-2,
+.preview-overlay-3,
+.preview-overlay-4 {
+	position: absolute;
+	z-index: 1;
+	background-position: center center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.preview-overlay-1 {
+	background-image: url('../img/news-item-1.jpg');	
+}
+
+.preview-overlay-2 {
+	background-image: url('../img/news-item-2.jpg');
+}
+
+.preview-overlay-3 {
+	background-image: url('../img/services-1.jpg');
+}
+
+.preview-overlay-4 {
+	background-image: url('../img/courses-1.jpg');
+}
+
+.preview-summary {
+	position: absolute;
+	z-index: 0;
+}
+
+.preview-title {
+	position: absolute;
+	bottom: 0;
+	padding: 15px 0 0 15px;
+	background-color: #161F7F;
+	text-align: left;
+	height: 100px;
+	font-size: 16px;
+	color: #FCFCFC;
+	z-index: 2;
+}
+
+/*
+	Helper borders
+*/
+.border-w {
+	border: 1px solid white;
+}
+
+.border-r {
+	border: 1px solid red;
+}
+
+.border-o {
+	border: 1px solid orange;
+}
+
+.border-g {
+	border: 1px solid green;
+}
+
+.border-b {
+	border: 1px solid blue;
+}
+
+.border-bl {
+	border: 1px solid #000;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:29.9999em) {
+	ul.social .lang-li {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.header {
+		background-position: 0;
+		min-height: 300px;
+	}
+
+	.col-left {
+		float: none;
+	}
+
+	.col-right {
+		float: none;
+	}
+
+	.preview-title {
+		width: 89.55%;
+	}
+
+	.preview-summary {
+		width: 90%;
+		padding: 5px;
+	}
+
+	.preview-content {
+		width: 90%;
+		padding-bottom: 80%;
+		margin: 5.66%;
+	}
+
+	.preview-overlay-1,
+	.preview-overlay-2,
+	.preview-overlay-3,
+	.preview-overlay-4 {
+		width: 89.55%;
+		height: 99.55%;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		font-size: 18px;
+		font-weight: bold;
+		padding: 14px 15px;
+	}
+
+	.tagline p {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.tagline p>.tagline-first-letter {
+		font-size: 60px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.quote {
+		font-size: 42px;
+	}
+
+	.quote-author {
+		font-size: 31px;
+	}
+
+	.header {
+		min-height: 480px;
+	}
+
+	.preview-title {
+		width: 399px;
+		margin-bottom: 2.66%;
+	}
+
+	.preview-content {
+		width: 400px;
+		height: 400px;
+		margin: 2.66%;
+	}
+
+	.preview-summary {
+		width: 400px;
+		padding: 10px;
+	}
+
+	.preview-overlay-1,
+	.preview-overlay-2,
+	.preview-overlay-3,
+	.preview-overlay-4 {
+		width: 398px;
+		height: 399px;
+	}
+
+	.navbar-default {
+		border-bottom: 1px solid #FCFCFC;
+	}
+
+	.tagline p {
+		font-size: 50px;
+	}
+
+	.tagline p>.tagline-first-letter {
+		font-size: 70px;
+	}
+
+	.navbar-default .navbar-nav>li:hover {
+		border-radius: 5px 5px 0 0;
+	}
+}
+
+
+/*
+@media screen and (max-width:29.9999em)
+@media screen and (min-width:30em) and (max-width:59.9999em)
+@media screen and (min-width: 60em)
+*/
