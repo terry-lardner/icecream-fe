@@ -1,6 +1,10 @@
+* {
+	/*border:1px solid red;*/
+}
 body {
 	background-color: #FAFAFA;
 	font-family: 'Work Sans', sans-serif;
+	overflow-x: hidden; /* Weird case in IE/Edge where there is extra wide space*/
 }
 
 ul, li {
@@ -63,7 +67,6 @@ Main banner
 */
 .header {
 	background-image: url('../img/carousel-r-2.jpg');
-	background-image: url('../img/carousel.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -83,8 +86,9 @@ ul.social li {
 	padding: 5px 9px;
 }
 
-ul.social img{
+ul.social img {
 	width: 40px;
+	height: 40px;
 }
 
 
@@ -152,6 +156,7 @@ ul.social .lang-li:hover {
 	height: 180px;
 	-webkit-transition: opacity 2s ease-in-out;
 	-moz-transition: opacity 2s ease-in-out;
+	-ms-transition: opacity 2s ease-in-out;
 	-o-transition: opacity 2s ease-in-out;
 	transition: opacity 2s ease-in-out;
 	background-color: #FCFCFC;
@@ -225,13 +230,8 @@ Section previews
 	background-color: #FCFCFC;
 }
 
-.preview-content,
 .preview-content-contact  {
 	text-align: center;
-}
-
-.preview-summary-container {
-	text-align: left;	
 }
 
 .preview-overlay-1,
@@ -245,6 +245,7 @@ Section previews
   	background-size: cover;
 	-webkit-transition: opacity 0.5s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
 	-o-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 }
@@ -301,8 +302,6 @@ Footer
 	color: #FCFCFC;
 }
 
-
-
 .footer-content a {
 	color: #FCFCFC;	
 }
@@ -323,6 +322,7 @@ Footer
 	font-size: 18px;
 }
 
+.logo,
 .logo:hover, 
 .logo:focus {
 	color: #3AB1C8;
@@ -350,8 +350,9 @@ ul.social-footer li {
 	padding: 5px;
 }
 
-ul.social-footer img{
+ul.social-footer img {
 	width: 35px;
+	height: 35px;
 }
 
 .copyright {
@@ -413,7 +414,7 @@ ul.social-footer img{
 @media (max-width: 767px) {
 	.header {
 		background-position: 0;
-		min-height: 300px;
+		height: 300px;
 	}
 
 	.blurb p {
@@ -480,7 +481,7 @@ ul.social-footer img{
 	}
 
 	.header {
-		min-height: 480px;
+		height: 480px;
 	}
 
 	.preview-title {
