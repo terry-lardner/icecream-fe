@@ -62,9 +62,8 @@ Main banner
 ==============================
 */
 .header {
-	/*background-image: url('../img/header_bg_1.jpg');*/
-	/*background-image: url('../img/header_bg.jpg');*/
 	background-image: url('../img/carousel-r-2.jpg');
+	background-image: url('../img/carousel.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -130,7 +129,7 @@ ul.social .lang-li:hover {
 	font-weight: bold;
 	color: #fff;
 	text-transform: uppercase;
-	/*letter-spacing: -3px;*/
+	letter-spacing: 2px;
 	margin: 0;
 }
 
@@ -276,7 +275,7 @@ Section previews
 	position: absolute;
 	bottom: 0;
 	padding: 15px 0 0 15px;
-	background-color: #2772DB;
+	background-color: #2C6580;
 	text-align: left;
 	height: 100px;
 	font-size: 16px;
