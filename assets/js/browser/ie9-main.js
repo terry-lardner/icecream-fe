@@ -1,4 +1,4 @@
 (function() {
-	var tagline = getElementsByClassName('tagline');
-	tagline[0].innerHTML('THis is an IE9 test');
+	var tagline = getElementById('tagline');
+	tagline.innerHTML('THis is an IE9 test');
 }());
