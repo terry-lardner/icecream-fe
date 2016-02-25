@@ -1,15 +1,15 @@
 'use strict';
 (function() {
-	const $carousel = $('#carousel');
-	const $carousel1 = $carousel.find('#carousel-item-1');
-	const $carousel2 = $carousel.find('#carousel-item-2');
+	var $carousel = $('#carousel');
+	var $carousel1 = $carousel.find('#carousel-item-1');
+	var $carousel2 = $carousel.find('#carousel-item-2');
 
-	const $previewContainer = $('#preview-container');
-	const $previewContent = $previewContainer.find('.preview-content');
-	const $overlay1 = $previewContent.find('.preview-overlay-1');
-	const $overlay2 = $previewContent.find('.preview-overlay-2');
-	const $overlay3 = $previewContent.find('.preview-overlay-3');
-	const $overlay4 = $previewContent.find('.preview-overlay-4');
+	var $previewContainer = $('#preview-container');
+	var $previewContent = $previewContainer.find('.preview-content');
+	var $overlay1 = $previewContent.find('.preview-overlay-1');
+	var $overlay2 = $previewContent.find('.preview-overlay-2');
+	var $overlay3 = $previewContent.find('.preview-overlay-3');
+	var $overlay4 = $previewContent.find('.preview-overlay-4');
 
 	setInterval(function(){
 		$carousel1.toggleClass('transparent');
