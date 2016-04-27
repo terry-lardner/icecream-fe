@@ -12,7 +12,7 @@
 
 	setInterval(function(){
 		$carousel1.toggleClass('transparent');
-	}, 6000);
+	}, 5000);
 
 
 	//Event listeners

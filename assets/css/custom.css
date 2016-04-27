@@ -168,6 +168,10 @@ ul.social .lang-li:hover {
   	background-size: cover;*/
 }
 
+.contentContainer {
+	margin: 30px 30px 0 30px;
+}
+
 .carousel-content {
 	position: absolute;
 	width: 100%;
@@ -178,12 +182,12 @@ ul.social .lang-li:hover {
 }
 
 
-.carousel-1 {
+.carousel-esp {
 	bottom: 0;
 	z-index: 0;
 }
 
-.carousel-2 {
+.carousel-en {
 	bottom: 180px;
 	z-index: -1;
 }
@@ -386,9 +390,6 @@ ul.social-footer img {
 .border-bl {
 	border: 1px solid #000;
 }
-
-
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width:29.9999em) {
