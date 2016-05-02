@@ -1,0 +1,86 @@
+.gridContainer,
+.gridRow {	
+	/*border: 1px solid;*/
+}
+
+.gridContainer {
+	margin: 35px 0;
+	font-size: 0; /* Remove default whitespace around div cells*/	
+}
+
+.gridRow {
+	/*display: table;*/
+	margin: 0 auto;
+}
+
+.gridCell {
+	font-size: 15px; /* TBC */ 
+	display: inline-block;
+	/*width: 130px;*/
+	/*height: 130px;*/
+	margin: 5px;
+	/*color: #fff;*/
+	/*padding: 5px;*/
+}
+
+.gridCellBtn {
+	display: block;
+	color: #fff;
+	padding: 5px;
+	width: 130px;
+	height: 130px;
+}
+
+.gridCellBtn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.gridCellBtn:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.bgGreen {
+	background-color: green;
+}
+
+.bgRed {
+	background-color: red;
+}
+
+.bgBlue {
+	background-color: blue;
+}
+
+.bgOrange {
+	background-color: orange;
+}
+
+.bgBrown {
+	background-color: brown;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:29.9999em) {
+
+}
+
+@media screen and (max-width: 767px) {
+	.gridRow {
+		width: 420px;
+	}
+}
+
+@media screen and (max-width: 767px) and (orientation:portrait)  {
+	.gridRow {
+		width: 280px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.gridRow {
+		width: 700px;
+	}
+}
